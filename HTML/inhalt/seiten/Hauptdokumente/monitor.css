@@ -1,0 +1,25 @@
+body{
+    font-family: Arial;
+    font-size: 1.2em;
+    background-color: #42f578;
+    text-align: center;
+}
+table{
+    margin: auto;
+}
+th{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    border: solid;
+    border-color: pink;
+}
+td{
+    padding-bottom: 10px;
+    border: solid;
+    border-color: pink;
+}
+a{
+    color: #f53d90;
+    cursor: cell;
+    font-weight: bold;
+}
