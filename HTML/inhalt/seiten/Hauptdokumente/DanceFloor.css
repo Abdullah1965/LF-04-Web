@@ -1,0 +1,29 @@
+Body{
+    background-image: url("https://media.istockphoto.com/vectors/abstract-blurred-colorful-background-vector-id1248542684?k=20&m=1248542684&s=612x612&w=0&h=1yKiRrtPhiqUJXS_yJDwMGVHVkYRk2pJX4PG3TT4ZYM=");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-shadow: 2px 2px blue;
+    color: wheat;
+    padding-left: 1em;
+}
+.mystyle{
+    padding-top: 4em;
+    padding-left: 4em;
+    height: 852px;
+    width: 1280px;
+    color: yellow;
+    background-image: url("../../bilder/personalfotos/beach-gbbe32b1c4_1280.jpg") , url("../../bilder/personalfotos/HerrMueller.PNG");
+    background-repeat: no-repeat , no-repeat;
+}
+table{
+    padding-left: 4em;
+}
+th{
+    padding-right: 15em;
+    padding-bottom: 10px;
+}
+td{
+    padding-bottom: 10px;
+}
