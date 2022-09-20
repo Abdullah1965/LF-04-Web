@@ -13,6 +13,9 @@ Body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+p{
+    padding-left: 4em;
+}
 a{
     color: #f53d90;
     cursor: cell;
