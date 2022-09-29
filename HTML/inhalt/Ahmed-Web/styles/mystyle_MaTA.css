@@ -22,7 +22,7 @@ div#person {
 }
 div#picture {
     background-color: #e0ff99;
-    grid-area: 4/1 ;
+    grid-area: 4/1 / span 2 / span 1 ;
 }
 div.content {
     background-color: #e2e8f1;
