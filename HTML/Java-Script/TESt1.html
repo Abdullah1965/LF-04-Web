@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hallo</title>
+</head>
+<body>
+<form id="frmBrowserabfrage">
+
+    <button id="btDruecken" type="button" onClick="meldung()">
+
+        Welchen Browser nehm' ich wohl?
+
+    </button>
+
+    <output id="browsertyp">
+
+        Name des Benutzeragenten
+
+    </output>
+
+</form>
+<script type="text/javascript">
+    let meldung = () => {
+        document.getElementById("browsertyp").innerText = navigator.userAgent;
+    }
+</script>
+
+</body>
+</html>
