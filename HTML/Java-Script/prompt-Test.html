@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hallo</title>
+</head>
+<body>
+<p id="antwort"></p>
+<script type="text/javascript">
+    let frage;
+    for (let i = 1; i <4 && frage !== "dynamischer"; i++) {
+        frage = prompt(i + ". Ver-such: Was bedeutet DQM?","dynamischer");
+        if (frage === "dynamischer") {
+            document.getElementById("antwort").innerHTML = "hallo " + frage;
+        }else {
+            document.getElementById("antwort").innerHTML = "Raus ";
+        }
+    }
+</script>
+</body>
+</html>
