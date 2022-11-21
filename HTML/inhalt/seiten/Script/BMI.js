@@ -5,6 +5,7 @@ let BMI = () => {
 
     if (!isNaN(cm) && !isNaN(kg)) {
         let x = kg / Math.pow((cm / 100), 2);
+
         erg.value = x;
         erg.style.color = "green"
     } else{
