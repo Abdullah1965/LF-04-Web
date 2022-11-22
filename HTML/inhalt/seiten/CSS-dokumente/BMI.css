@@ -2,6 +2,15 @@
     border-radius: 25px;
     border: 2px solid black;
     padding: 20px;
-    width: 400px;
+    width: 1000px;
     height: 280px;
+
+}
+body{
+    background: #8aacf1;
+    padding: 10px;
+}
+.img{
+    border-color: #ffff;
+    border-style: solid;
 }

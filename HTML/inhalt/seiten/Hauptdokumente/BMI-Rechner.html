@@ -14,7 +14,7 @@
 <h1>Body-MassIndex-Rechner</h1>
 <h2>Online-BMI-Berechnung für Erwachsene</h2>
 <div>
-    <img src="../../bilder/personalfotos/fuß.jpg" alt="Ein Bild von den bergen" style="width: 25% ; height: auto">
+    <img class="img" src="../../bilder/personalfotos/fuß.jpg" alt="Ein Bild von den bergen" style="width: 25% ; height: auto">
     <p>Einen BMI-Rechner für Kinder finden sie
         <a href="https://www.uebergewicht-vorbeugen.de/wenn-es-schwerer-wird/uebergewicht/bmi-rechner-das-gewicht-im-blick/?L=0">Hier</a>
     </p>
@@ -26,16 +26,16 @@
     </p>
     <form>
         <div>
-            <label>
+            <label for="cm">
                 Körpergröße <strong>in cm</strong>
             </label>
-            <input id="cm" type="number">
+            <input id="cm" type="number" >
         </div>
 
         <p> Bitte geben sie Ihr Körpergewicht ein: </p>
 
         <div>
-            <label>
+            <label for="kg">
                 Körpergewicht <strong>in kg</strong>
             </label>
             <input id="kg" type="number">
@@ -51,6 +51,7 @@
             </label>
             <output id="erg"></output>
         </div>
+        <p class="neu"></p>
     </form>
 </div>
 <h3>Bedeutung des BMI-Wertes bei Erwachsenen</h3>
