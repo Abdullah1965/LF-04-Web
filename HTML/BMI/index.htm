@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<title>BMI-Rechner</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Carsten Müller">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="expires" content="3600">
+		<meta name="robots" content="index, nofollow">
+		<link href="CSS/myBmiStyle.css" rel="stylesheet" type="text/css" media="all">
+		<script src="Skripte/myBmiScript.js" type="text/javascript" charset="utf-8" defer></script>
+	</head>
+	<body>
+		<h1>Body-Mass-Index-Rechner</h1>
+		<h2>Online-BMI-Berechnung für Erwachsene</h2>
+		<img src="Fotos/personenwaage.jpg" alt="Personenwaage">
+		<p>Einen BMI-Rechner für Kinder finden Sie hier: <a href="https://www.bmi-rechner.biz/kinder.html" target="_blank">BMI-Rechner für Kids</a></p>
+		<form id="bmiRechner">
+			<div>
+				<p>Bitte geben Sie Ihre Körpergröße ein:</p>
+				<label for="groesse">Körpergröße <strong>in cm</strong>:</label>
+				<input id="groesse" class="myInputs" type="number">
+				<p>Bitte geben Sie Ihr Körpergewicht ein:</p>
+				<label for="gewicht">Körpergewicht <strong>in kg</strong>:</label>
+				<input id="gewicht" class="myInputs" type="number">
+			</div>
+			<button id="cmd_bmiBerechnen" type="button">BMI berechnen</button>
+			<div id="ergebnis">
+				<p>Ihr Body-Mass-Index beträgt:</p>
+				<label for="bmiWert">BMI-Wert:</label>
+				<output id="bmiWert"></output>
+			</div>
+		</form>
+		<h3>Bedeutung des BMI-Wertes bei Erwachsenen:</h3>
+		<table>
+			<thead>
+				<tr>
+					<th>BMI-Wert</th>
+					<th>Bedeutung</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>unter 18,5</td>
+					<td>Untergewicht</td>
+				</tr>
+				<tr>
+					<td>18,5 - 24,9</td>
+					<td>Normalgewicht</td>
+				</tr>
+				<tr>
+					<td>25 - 29,9</td>
+					<td>Übergewicht</td>
+				</tr>
+				<tr>
+					<td>ab 30</td>
+					<td>Adipositas</td>
+				</tr>
+			<tbody>
+		</table>
+	</body>
+</html>
